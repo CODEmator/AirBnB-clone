@@ -91,6 +91,18 @@ EOF  help  quit
 (hbnb) quit
 $
 ```
+Create  and Update:
+```
+create User
+a8d9868f-ec63-482a-a010-944648525b18
+(hbnb) update User a8d9868f-ec63-482a-a010-944648525b18 email "codematorng@gmail.com"
+(hbnb) update User a8d9868f-ec63-482a-a010-944648525b18 name "Philip Nnaa"
+(hbnb) update User a8d9868f-ec63-482a-a010-944648525b18 city "Port Harcourt"
+(hbnb) show User a8d9868f-ec63-482a-a010-944648525b18
+[User] (a8d9868f-ec63-482a-a010-944648525b18) {'id': 'a8d9868f-ec63-482a-a010-944648525b18', 'created_at': datetime.datetime(2022, 8, 7, 15, 4, 8, 20498), 'updated_at': datetime.datetime(2022, 8, 7, 15, 4, 8, 20510), 'email': 'codematorng@gmail.com', 'name': 'Philip Nnaa', 'city': 'Port Harcourt'}
+(hbnb)
+```
+
 Non-interactive mode:
 ```
 $ echo "help" | ./console.py
