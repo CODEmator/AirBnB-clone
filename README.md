@@ -114,4 +114,4 @@ $
 
 ## AUTHORS
  
-* **Faith Ikhidero** - [Faitholo](https://github.com/Faitholo)
+* **Philip Nnaa** - [CODEmator](https://github.com/CODEmator)
